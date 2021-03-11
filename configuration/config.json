@@ -1,0 +1,15 @@
+{
+  "qewd_up": true,
+  "qewd": {
+    "port": 8080,
+    "poolSize": "2",
+    "managementPassword": "keepThisSecret!",
+    "database": {
+      "type": "dbx",
+      "params": {
+        "database": "BDB",
+        "db_file": "/opt/bdb/data/my_bdb_database.db"
+      }
+    }
+  }
+}
