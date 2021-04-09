@@ -43,7 +43,7 @@ Clone this repository to your Linux system.  For example, to clone it
 to the folder ~/qewd on your system:
 
         cd ~
-        git clone https://github.com/robtweed/qewd-starter-kit-bdb qewd
+        git clone https://github.com/robtweed/qewd-jsdb-kit-bdb qewd
 
 The instructions in this document will assume you've cloned it
 to the ~/qewd folder on your Linux system.  Adjust the paths in the examples appropriately
@@ -313,13 +313,13 @@ Note: if you're using:
 - a Raspberry Pi running the Raspbian or other 32-bit OS, pull *rtweed/qewd-bdb-rpi* instead
 
 
-### Clone the *qewd-starter-kit-bdb* repository
+### Clone the *qewd-jsdb-kit-bdb* repository
 
 Clone this repository to your Linux system.  For example, to clone it
 to the folder ~/qewd on your system:
 
         cd ~
-        git clone https://github.com/robtweed/qewd-starter-kit-bdb qewd
+        git clone https://github.com/robtweed/qewd-jsdb-kit-bdb qewd
 
 The instructions in this document will assume you've cloned it
 to the ~/qewd folder on your Linux system.  Adjust the paths in the examples appropriately
