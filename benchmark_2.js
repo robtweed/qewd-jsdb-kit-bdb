@@ -2,8 +2,8 @@ var dbxbdb = require('mg-dbx-bdb').dbxbdb;
 var mglobal = require('mg-dbx-bdb').mglobal;
 var db = new dbxbdb();
 
-var lmdb = process.argv[2];
-var net = process.argv[3];
+var lmdb = 0
+var max = process.argv[2] || 100000;
 
 if (process.platform == 'win32') {
    if (lmdb == 1)
@@ -20,7 +20,7 @@ else {
 
 console.log("\n\nopen(): " + open);
 console.log("\n\nVersion (mg-dbx-bdb.node): " + db.version());
-var max = 300000;
+
 var global = new mglobal(db, 'cm');
 var d1 = new Date();
 var d1_ms = d1.getTime()
